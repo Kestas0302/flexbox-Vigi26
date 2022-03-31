@@ -1,0 +1,83 @@
+.item {
+    width: 100px;
+    height: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+
+.item-1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.item-2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.item-3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+
+/* dicection */
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row-reverce {
+    flex-direction: row-reverse;
+}
+
+.column-reverce {
+    flex-direction: column-reverse;
+}
+
+header {
+    margin-bottom: 30px;
+    background-color: gray;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    margin: 0 18px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+header a:hover{
+    color: yellow;
+}
+
+body,
+h2 {
+    margin: 0;
+}
